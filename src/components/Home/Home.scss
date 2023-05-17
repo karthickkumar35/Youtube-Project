@@ -1,0 +1,328 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.6s;
+  font-family: "Roboto", "Arial", sans-serif;
+}
+
+// login Page
+
+.UI {
+  width: 50%;
+  height: 80vh;
+  margin: auto;
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 40px 0;
+  border-radius: 6px;
+  h1 {
+    width: 100%;
+    text-align: center;
+  }
+  .youtube_logo {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    img {
+      max-width: 100%;
+    }
+  }
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  input {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+  }
+
+  .btn {
+    width: 60%;
+    border-radius: 20px;
+    margin-top: 20px;
+    background: linear-gradient(90deg, #2b2b9c, #ff00f29d);
+  }
+
+  Button:hover {
+    border: none;
+  }
+}
+
+.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: #646262 !important;
+}
+
+.css-1b0ve20 > :not(style) {
+  display: flex;
+}
+
+.css-r47a1p-MuiFormControl-root {
+  width: 100%;
+}
+
+// Home LogOut Page
+
+.homePage {
+  display: flex;
+  flex-wrap: wrap;
+  .sideNav {
+    width: 20%;
+  }
+}
+.homeConMar{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.home {
+  margin-top: 10%;
+  width: 80%;
+  .homeCard {
+    overflow: hidden;
+    cursor: pointer;
+    a {
+      text-decoration: none;
+    }
+    .home_thump_img img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .home_thump_img img:hover {
+      border-radius: 0%;
+      transform: scale(1.01);
+    }
+    #home_logo_hed4_para {
+      margin-top: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+     
+      .home_logo_img img {
+        width: 45px;
+        height: 45px;
+        border-radius: 50px;
+      }
+      .home_hed_4_para {
+        width: 75%;
+        h4 {
+          color: #000;
+          height:40px;
+          overflow: hidden;
+        }
+        p {
+          color: #646262;
+          font-size: small;
+        }
+      }
+    }
+  }
+}
+
+.homeCard {
+  width: 30% !important;
+}
+@media (max-width:576px) {
+  .d-sm-none{
+    display: none;
+  }
+  .home{
+    width:100%;
+    margin-top: 0;
+    gap:10px;
+    .homeCard .home_thump_img img{
+      border-radius: 0;
+    }
+    .homeCard #home_logo_hed4_para .home_logo_img{
+      width:16%;
+    }
+    .homeCard #home_logo_hed4_para .home_hed_4_para{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap:5px;
+      margin-bottom: 10px;
+      h4{
+        width:100%;
+      }
+      p{
+        margin: 0 !important;
+      }
+    }
+    .filterbar-row{
+      position: static !important;
+      width:100% !important;
+      padding-bottom: 0 !important;
+    }
+  }
+  .css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+    padding: 0 !important;
+  }
+}
+@media (min-width: 280px) {
+  .homeCard {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 600px) {
+  .homeCard {
+    width: 40% !important;
+  }
+}
+
+@media (min-width: 1100px) {
+  .homeCard {
+    width: 30% !important;
+  }
+}
+@media (min-width:"576px") and (max-width:"1120px"){
+  .homeConMar{
+    margin-top: 10%;
+  }
+  .home {
+    width:90%;
+  }
+  .homePage .sideNav{
+    width:10%;
+  }
+  .home .filterbar-row{
+    width:90% !important;
+  }
+}
+// filter Bar
+.home{
+.filterbar-row {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: auto;
+  position: fixed;
+  top: 60px;
+  background: #fff;
+  padding-bottom: 2px;
+  padding-top: 8px;
+  z-index: 10;
+}
+.filterbar-btn {
+  background-color: #f2f2f2 !important;
+  color: black !important;
+  box-shadow: none !important;
+  border-radius: 10px !important;
+  padding: 7px !important;
+}
+.filterbar-btn:hover {
+  background-color: #e6e6e6 !important;
+  box-shadow: none;
+}
+}
+.css-1aquho2-MuiTabs-indicator {
+  width: 0 !important;
+  height: 0 !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  border: 1px solid #f2f2f2 !important;
+  border-radius: 10px !important;
+  background: #f2f2f2 !important;
+  color: #000 !important;
+  min-height: 0 !important;
+  min-width: 50px !important;
+  padding: 7px 14px !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  border: 1px solid #b1adad !important;
+  border-radius: 10px !important;
+  background: #b1adad !important;
+  color: #000 !important;
+}
+
+.css-heg063-MuiTabs-flexContainer {
+  gap: 20px;
+}
+
+
+// Dark mode
+
+body.dark {
+  background-color: #0f0f0f;
+  // Sign in
+  .UI h1 {
+    color: #fff;
+  }
+  .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root {
+    color: #646262;
+  }
+  .UI input {
+    color: #646262;
+  }
+  .css-v4u5dn-MuiInputBase-root-MuiInput-root:before {
+    border-bottom: 1px solid #646262;
+  }
+  .css-i4bv87-MuiSvgIcon-root {
+    color: #646262;
+  }
+  .css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root {
+    color: #646262;
+  }
+  // Nav Bar
+  .navbar-container {
+    background: #0f0f0f;
+    .toggle {
+      color: #fff;
+    }
+    .navbar-search-input {
+      outline: #fff;
+      color: #fff;
+      background-color: #0f0f0f;
+    }
+    .navbar-search-icon {
+      background-color: #303030;
+      border-top-right-radius: 18px;
+      border-bottom-right-radius: 18px;
+      color: #fff;
+      outline: #fff;
+    }
+    .navbar-mike,
+    .navbar-cam-icon,
+    .navbar-msg-icon {
+      color: #fff;
+    }
+    .menu-appbar {
+      background-color: #0f0f0f !important;
+    }
+  }
+
+// filter Bar
+  .filterbar-row {
+    background-color: #0f0f0f;
+  }
+  // .filter-tab {
+  //   background-color: #0f0f0f !important;
+  //   color: #fff !important;
+  // }
+  .css-ptiqhd-MuiSvgIcon-root {
+    color: #fff !important;
+  }
+  .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    background-color: #ffffff1a !important;
+    color: #b1adad !important;
+    border: transparent !important;
+  }
+  .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    background-color: #fff !important;
+    color: #646262 !important;
+    border: transparent !important;
+  }
+
+}

@@ -1,0 +1,137 @@
+.library-logout{
+    margin: 0 auto;
+    padding:20px;
+    margin-top: 10%;
+    text-align: center;
+    .library-logo .icons{
+        font-size: 110px;
+        color:#0f0f0f;
+    }
+    .libraryLogTitle{
+        font-size: 24px;
+        font-weight: 500;
+        margin-top: 20px;
+        color:#0f0f0f;
+    }
+    .libraryLogContant{
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 20px;
+        color:#0f0f0f;
+    }
+    .log-sign{
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500;
+        padding:5px;
+        color:rgb(99, 99, 219);
+        border: 1px solid #ccc;
+        border-radius: 135px;
+        display: inline-flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 20px;
+        transition: all .2s ease;
+        width:100px;
+        .log-icon{
+            font-size: 24px;
+            margin-right: 4px;
+        }
+    }
+    .log-sign:hover{
+        background-color: rgb(214, 227, 231,0.7);
+    }
+}
+
+//------------login-----------//
+.Lib-in{
+    display: flex;
+    flex-wrap: wrap;
+    .Library-login{
+        padding:20px;
+        width:80%;
+        .LibraryHistory{
+            padding:20px 0;
+            border-bottom: 1px solid #ccc;
+            .LibraryDisplay{
+                display:flex;
+                align-items: center;
+                .icons{
+                    font-size: 24px;
+                    color:#252525;
+                    margin-right: 12px;
+                    margin-bottom: 12px;
+                }
+                .LibraryLogInName{
+                    text-decoration: none;
+                    color:#252525;
+                    font-size: 20px;
+                    font-weight: 500;
+                    margin-bottom: 12px;
+                }
+            }
+            .LibraryLogInCon{
+                font-size: 14px;
+                color:#606060;
+                font-weight: 400;
+            }
+        }
+    }
+    .LibraryLoginRight{
+        width:20%;
+        padding:12px;
+        .LibraryLoginRightSec{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ccc;
+            padding:10px 0;
+            .LibraryLoginRightName{
+                color:#969696;
+                font-size: 14px;
+            }
+            .LibraryLoginRightCount{
+                color:#969696;
+                font-size: 14px;
+            }
+        }    
+        .LibraryLoginRightSec1{   
+            justify-content: center; 
+            .LibraryBoxDisplay{
+                text-align: center;
+                .Library-box1{
+                    font-size: 120px;
+                    color: #b1b1b1;
+                } 
+            }
+        }
+    }
+    
+}
+
+//------------Responsive---------//
+@media (max-width:"576px"){
+    .LibarayFull{
+        margin: 0 !important;
+    }
+    .LibraryLoginRight{
+        display:none;
+    }
+    .Lib-in .Library-login{
+        width:100%;
+    }
+}
+@media (min-width:"576px") and (max-width:"1200px"){
+    .LibarayFull{
+        margin-left: 12% !important;
+    }
+    .library-logout .library-logo .icons{
+        font-size: 110px !important;
+    }
+}
+@media(min-width:"576px"){
+    .Lib-in{
+        margin-top: 6%;
+    }
+}

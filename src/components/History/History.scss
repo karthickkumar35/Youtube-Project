@@ -1,0 +1,301 @@
+.HisLogged{
+    display: flex;
+    flex-wrap: wrap;
+    .LoggedFalse{
+        margin: 0 auto;
+        width:65%;
+        font-size: 16px;
+        font-weight: 500;
+        color:#0f0f0f;
+        margin-top: 20px;
+        .LoggedFalseLink{
+            text-decoration: none;
+            color:rgb(99, 99, 219);
+        }
+
+    }
+    .History-logout{
+        margin: 0 auto;
+        padding:20px;
+        margin-top: 10%;
+        text-align: center;
+        width:65%;
+        margin-right: 35%;
+        .History-logo .icons{
+            font-size: 110px;
+            color:#0f0f0f;
+        }
+        .HistoryLogTitle{
+            font-size: 24px;
+            font-weight: 500;
+            margin-top: 20px;
+            color:#0f0f0f;
+        }
+        .HistoryLogContant{
+            font-size: 16px;
+            font-weight: 500;
+            margin-top: 20px;
+            color:#0f0f0f;
+            .learnHistory{
+                text-decoration: none;
+                color:rgb(99, 99, 219);
+            }
+        }
+        .log-sign{
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+            padding:5px;
+            color:rgb(99, 99, 219);
+            border: 1px solid #ccc;
+            border-radius: 135px;
+            display: inline-flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-top: 20px;
+            transition: all .2s ease;
+            width:100px;
+            .log-icon{
+                font-size: 24px;
+                margin-right: 4px;
+            }
+        }
+        .log-sign:hover{
+            background-color: rgb(214, 227, 231,0.7);
+        }
+    }
+    .HistoryLoggedRight{
+        padding:20px;
+        width:35%;
+        position: fixed;
+        right:0;
+        .HistoryLoggedRightTitle{
+            font-size: 20px;
+            font-weight: 500;
+            border-bottom: 1px solid #ccc;
+            padding: 15px;
+        }
+        .HistoryLoggedRightDisplay{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ccc;
+            padding:15px;
+            cursor: pointer;
+            .HistoryRadio{
+                font-size: 16px;
+                width:90%;
+                cursor: pointer;
+            }
+            .HistoryRadioBtn{
+                font-size: 22px;
+                cursor: pointer;
+            }
+        }
+        .clearHistory{
+            margin: 10px;
+            .clearHistoryBor{
+                display: inline-flex;
+                align-items: center;
+                border-radius: 135px;
+                padding:8px 10px;
+                transition: all .2s ease;
+                cursor: pointer;
+                .clearHistoryIcon{
+                    font-size: 20px;
+                    color: #0f0f0f;
+                    margin-right: 12px;
+                }
+                .clearHistoryCon{
+                    font-size: 16px;
+                    color: #0f0f0f;
+                    display: inline-block;
+                }
+            }
+            .clearHistoryBor:hover{
+                background-color: #ccc;
+            }
+        }
+        
+    }
+}
+//------------HIstory Login-------------//
+.His-in{
+    display: flex;
+    flex-wrap: wrap;
+    .HistoryLogIn{
+        width:65%;
+        font-size: 16px;
+        font-weight: 500;
+        color:#0f0f0f;
+        margin-top: 20px;
+        padding:20px;
+        .HistoryLogInTitle{
+            font-size: 18px;
+            color:#0f0f0f;
+            margin-bottom: 20px;
+        }
+        .HistoryLogInCon{
+            font-size: 18px;
+        }
+
+
+    }
+    .HistoryLoginRight{
+        padding:20px;
+        width:35%;
+        position: fixed;
+        right:0;
+        .HistoryLoginRightSearch{
+            padding:0 20px;
+            margin-bottom: 12px;
+            .HistoryLoginRightSearchInput{
+                width:70%;
+                .HistorySearchIcon{
+                    font-size: 24px;
+                }
+            }
+        }
+        .HistoryLoginRightTitle{
+            font-size: 20px;
+            font-weight: 500;
+            border-bottom: 1px solid #ccc;
+            padding: 15px;
+        }
+        .HistoryLoginRightDisplay{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ccc;
+            padding:15px;
+            cursor: pointer;
+            .HistoryRadio{
+                font-size: 16px;
+                width:90%;
+                cursor: pointer;
+            }
+            .HistoryRadioBtn{
+                font-size: 22px;
+                cursor: pointer;
+            }
+        }
+        .clearHistory{
+            margin: 10px;
+            .clearHistoryBor{
+                display: inline-flex;
+                align-items: center;
+                border-radius: 135px;
+                padding:8px 10px;
+                transition: all .2s ease;
+                cursor: pointer;
+                .clearHistoryIcon{
+                    font-size: 20px;
+                    color: #0f0f0f;
+                    margin-right: 12px;
+                }
+                .clearHistoryCon{
+                    font-size: 16px;
+                    color: #0f0f0f;
+                    display: inline-block;
+                }
+            }
+            .clearHistoryBor:hover{
+                background-color: #ccc;
+            }
+        }
+        .ManageItems{
+            padding:15px 60px;
+            .manageLink{
+                text-decoration: none;
+                color: #7e7e7e;
+                font-weight: 500;
+                font-size: 15px;
+                display: block;
+                margin-bottom: 12px;
+            }
+        }
+    }
+    .HistoryLogInCom{
+        padding:20px;
+        text-align: center;
+        width:65%;
+        margin: 0 auto;
+        margin-right: 35%;
+        h2{
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        p{
+            text-align: center;
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+}
+
+//----------------Metrial-ui-----//
+
+.css-v4u5dn-MuiInputBase-root-MuiInput-root:after{
+    border-bottom: 2px solid #0f0f0f !important;
+}
+@media (max-width:"576px"){
+    .Histories{
+        margin-left: 0 !important;
+        margin-bottom: 5%;
+    }
+    .His-in .HistoryLoginRight .HistoryLoginRightSearch .HistoryLoginRightSearchInput{
+        width:100%;
+    }
+    .His-in{ 
+        .HistoryLogIn{
+            width:100%;
+        }
+        .HistoryLogInCom{
+            margin-right: 0;
+            width:100%;
+        }
+        .HistoryLoginRight{
+            width:100%;
+            position: relative;
+        }
+    }   
+}
+@media (min-width:"576px") and (max-width:"786px"){
+    .His-in{ 
+        .HistoryLogIn{
+            width:100%;
+        }
+        .HistoryLogInCom{
+            margin-right: 0;
+            width:100%;
+            margin-top: 20px;
+        }
+        .HistoryLoginRight{
+            width:100%;
+            position: relative;
+        }
+    }   
+}
+@media (min-width:"786px") and (max-width:"1200px"){
+    .His-in{ 
+        .HistoryLoginRight{
+            margin-top: 20px;
+        }
+        .HistoryLogIn{
+            margin-top: 25px;
+        }
+        .HistoryLogInCom{
+            margin-top: 20px;
+        }
+    }
+}
+@media (min-width:"576px"){
+    .His-in{
+        margin-top: 6%;
+    }
+    
+}

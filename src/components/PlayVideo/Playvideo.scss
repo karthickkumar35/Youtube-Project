@@ -1,0 +1,512 @@
+// PlayVideo 2nd Page
+
+#playVideo {
+    width: 85%;
+    margin: 100px auto auto;
+    .videodiv {
+      width: 100%;
+      video {
+        width: 98%;
+        max-height: 500px;
+      }
+    }
+  }
+  
+  @media (max-width:"576px") {
+    #playVideo {
+      width: 100%;
+      margin-top: 0;
+    }
+    #playVideo .videodiv video {
+      width: 100%;
+      max-height: 800px;
+  }
+  #playVideo .videodiv{
+    position: fixed;
+    top:0;
+    left: 0;
+    right:0;
+    z-index: 200;
+  }
+  .details-col-3{
+    flex-wrap: wrap;
+    
+  }
+  .details-col-2{
+    margin-top: 38%;
+  }
+  .details-description-1{
+    width:100% !important;
+  }
+  .details-description-2{
+    justify-content: space-between !important;
+    width:100% !important;
+  }
+  .details-col-4{
+    padding:10px 0 !important;
+  }
+  .details-comment-count{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .comment-count{
+      width:50% !important;
+    }
+  }
+  .details-channel-subscribe{
+    margin-left: 25%;
+  }
+  .comment-btn{
+    width: 100%;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  }
+  
+  @media (min-width: 600px) {
+    #playVideo {
+      width: 95%;
+      margin: 60px auto auto;
+      .videodiv {
+        width: 70%;
+      }
+    }
+  }
+  
+  @media (min-width: 1020px) {
+    #playVideo {
+      margin: 20px 0;
+      .videodiv {
+        width: 100%;
+      }
+    }
+  }
+  
+  //
+  #details-sec {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    margin-top: 6%;
+  }
+  .details-container {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .details-row-1 {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+  .details-col-1 {
+    width: 100%;
+  }
+  .details-col-1 img {
+    max-width: 100%;
+  }
+  .details-col-2 {
+    padding: 10px 0;
+  }
+  .details-col-3 {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .details-description-1 {
+    display: flex;
+    width:40%;
+  }
+  .details-channel-icon {
+    width: 12%;
+  }
+  .details-channel {
+    max-width: 100%;
+    border-radius: 50%;
+  }
+  .details-channel-name {
+    padding: 0 10px;
+    .sub{
+        font-size: 12px;
+        color:#b1adad;
+    }
+  }
+  .details-channel-subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #subscribe {
+    padding: 9px 15px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+  }
+  .details-description-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+  }
+  .details-like {
+    width: 30%;
+    display: flex;
+    background-color: #0000000d;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .css-1peyhh5-MuiButtonBase-root-MuiCheckbox-root{
+    padding:2px !important;
+  }
+  #thumbsup {
+    background-color: rgba(128, 128, 128, 0);
+    border: none;
+    padding: 0 10px;
+    cursor: pointer;
+  }
+  #thumbsdown {
+    background-color: rgba(128, 128, 128, 0);
+    border: none;
+    border-left: 1px solid #0000000d;
+    padding: 0 10px;
+    cursor: pointer;
+  }
+  #like-count {
+    width: 10px;
+    text-align: center;
+    border: 0;
+    padding: 0;
+    border-right: 1px solid #ccc;
+    padding-right: 15px;
+    background: transparent;
+  }
+  .details-share {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .details-download {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .details-extra {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #share {
+    border-radius: 135px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 10px;
+    cursor: pointer;
+    background-color: #0000000d;
+  }
+  #share:hover,#download:hover,#extra:hover,.details-like:hover{
+    background-color: #0000001a;
+  }
+  .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked, .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate{
+    color:#02020299 !important;
+  }
+  #download {
+    border-radius: 135px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 10px;
+    cursor: pointer;
+    background-color: #0000000d;
+  }
+  #extra {
+    border-radius: 135px;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #0000000d;
+  }
+  .details-col-4 {
+    padding: 20px 0;
+  }
+  
+  .details-video-description {
+    background-color: #0000000d;
+    border-radius: 10px;
+    padding: 10px;
+    .discription{
+      color:#636363;
+      line-height: 22px;
+      font-weight: 500;
+    }
+    height:90px;
+    overflow: hidden;
+  }
+  .details-col-5 {
+    padding: 10px 0;
+  }
+  .details-comment-count {
+    display: flex;
+  }
+  .comment-count {
+    width: 15%;
+  }
+  .comment-sort {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .details-comment {
+    padding: 10px 0;
+  }
+  .details-row-2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 0;
+    width: 30%;
+    border-top: 1px solid gray;
+  }
+  .details-card-2 {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7px 0;
+    transition: all .3s ease;
+    cursor: pointer;
+  }
+  .details-card-2:hover .details-right-image{
+    transform: scale(1.01);
+  }
+  .details-right-video {
+    width: 40%;
+    overflow: hidden;
+  }
+  .details-right-image {
+    max-width: 100%;
+    overflow: hidden;
+    transition: all .3s ease;
+    border-radius: 5px;
+  }
+  .details-right-description {
+    width: 60%;
+    padding: 0 7px;
+  }
+  .details-name {
+    font-size: 15px;
+    height:35px;
+    overflow: hidden;
+  }
+  .details-channel {
+    font-size: 10px;
+  }
+  .details-content {
+    display: flex;
+  }
+  .details-ago {
+    padding: 0 10px;
+  }
+  .chennalColor{
+    margin-top: 5px;
+    color:#646262;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .viewColor{
+    color:#a19f9f;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 5px;
+  }
+  .details-row-2:hover .details-row-1 {
+    position: static;
+  }
+  .comment-btn-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .comment-icon {
+    display: flex;
+    gap: 10px;
+  }
+  .comment-btn {
+    display: flex;
+    gap: 10px;
+  }
+  .comment-cancel {
+    Button {
+      background-color: transparent;
+      border-radius: 135px;
+      font-weight: 500;
+    }
+    Button:hover {
+      background-color: #0000000d;
+    }
+  }
+  .comment-ok{
+    Button{
+        background-color: #0000000d;
+        border-radius: 135px;
+        font-weight: 500;
+    }
+  }
+  .comment-para {
+    font-size: 12px;
+    span {
+      color: blue;
+    }
+    span:hover {
+      cursor: pointer;
+    }
+  }
+  .margin-img{
+    margin-right: 20px;
+  }
+  //-------------------------commentSection----------------//
+  .commentSection{
+    
+    .userNameCom{
+      display: flex;
+      flex-wrap: wrap;
+      p{
+        display:inline-block;
+      }
+      .userNameInCom{
+        font-size: 16px;
+        font-weight: 600;
+        color:#1d1d1d;
+      }
+      .timecomment{
+        color:#b1adad;
+        font-size: 12px;
+        font-weight: 500;
+        margin-left: 10px;
+      }
+    }
+    .user-comment{
+      overflow-wrap: anywhere;
+      margin-left: 60px;
+      margin-top: -20px;
+      margin-bottom: 40px;
+      .details-like{
+        margin-top: 5px;
+        padding:0;
+        justify-content: flex-start;
+        background: transparent;
+        width:50%;
+      }
+    }
+  }
+  //filter bar ..............................................................
+  
+  #details-filterbar {
+    width: 100%;
+    padding: 0px;
+  }
+  .filterbar-row {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    background: #fff;
+    // padding-bottom: 10px;
+  }
+  
+  .css-1aquho2-MuiTabs-indicator {
+    width: 0 !important;
+    height: 0 !important;
+  }
+  
+  .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    border: 0 !important;
+    border-radius: 10px !important;
+    background: #f2f2f2 !important;
+    color: #000 !important;
+    min-height: 0 !important;
+    min-width: 50px !important;
+    padding: 5px 10px !important;
+    padding: 7px 14px !important;
+  }
+  
+  .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    border: 1px solid #b1adad !important;
+    border-radius: 10px !important;
+    background: #000 !important;
+    color: #fff !important;
+  }
+  
+  .css-heg063-MuiTabs-flexContainer {
+    gap: 20px;
+  }
+  
+  @media (max-width: 576px) {
+    .details-row-1 {
+      width: 100%;
+    }
+    .details-row-2 {
+      width: 100%;
+    }
+    #details-sec {
+      margin-top: 10%;
+    }
+    .details-channel-icon{
+      width:50px;
+    }
+    .details-video-description {
+      height:60px;
+    }
+  }
+  
+  @media(min-width:"576px") and (max-width:"1200px"){
+    .details-row-1{
+      width:100%
+    }
+    .details-row-2{
+      width:100%;
+    }
+    .details-channel-icon{
+      width:50px;
+    }
+    #playVideo .videodiv{
+      width:100%;
+      video{
+        width:100%;
+      }
+    } 
+    .details-description-2{
+      width:60%;
+    }
+  }
+  @media(min-width:"576px") and (max-width:"786px"){
+    #playVideo{
+      width:100%;
+      margin-top: 25px;
+    }
+    .details-channel-icon{
+      width:50px;
+    }
+    .details-col-3{
+      flex-wrap: wrap;
+    }
+    .details-description-1{
+      width:100%;
+    }
+    .details-description-2{
+      width:100%;
+    }
+  }

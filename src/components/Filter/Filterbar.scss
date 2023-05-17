@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.filterbar-row{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+}
+.filterbar-btn{
+    background-color:	 #f2f2f2 !important;
+    color: black !important;
+    box-shadow: none !important;
+    border-radius: 8px;
+}
+.filterbar-btn:hover{
+    background-color: #e6e6e6 !important;
+    box-shadow: none;
+}
+
+//---------------Responsive------//
+@media (max-width:"576px"){
+    .css-e53awj-MuiStack-root{
+        display: none !important;
+    }
+    .css-11qr2p8-MuiButtonBase-root-MuiButton-root{
+        line-height: 1 !important;
+        font-size: 10px !important;
+        min-width: 50px !important;
+    }
+}
